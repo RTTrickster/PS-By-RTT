@@ -1,5 +1,9 @@
 A script that collects data from Active Directory, Azure Active Directory, Exchange, Skype for Business, and Intune. It collects some of that data in Azure Storage Tables so you can use it for reporting, disables and/or deletes objects that are stale and emails you a report. 
 
+**WARNING WARNING WARNING WARNING WARNING WARNING WARNING** 
+This script is designed to delete objects from your Active Directory, Azure Active Directory, Exchange, Intune and SQL. Use at your own risk. 
+I provide no warranty or support and accept no responsibility. You should never run random scripts off the internet without understanding their content. 
+
 Sample Azure Storage Table for AD Users
 ![image](https://user-images.githubusercontent.com/55263241/135212516-b97e9508-5b19-453a-8cd8-3ce2dbb5597a.png)
 
